@@ -13,8 +13,9 @@ inputs:
   image_tag:
     description: 'Docker Image Tag'
     required: true
-  image:
+  file:
     description: 'Dockerfile name'
     default: 'Dockerfile'
 runs:
   using: 'docker'
+  image: 'Dockerfile'
