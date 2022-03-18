@@ -1,4 +1,4 @@
-FROM docker:19.03.2
+FROM docker:20.10
 LABEL "repository"="https://github.com/raccoondev/push-docker-gcr"
 LABEL "maintainer"="Dmytro Mykhailov"
 
