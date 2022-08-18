@@ -16,6 +16,9 @@ inputs:
   file:
     description: 'Dockerfile name'
     default: 'Dockerfile'
+  build_args:
+    description: 'Dockerfile name'
+    default: ''
 runs:
   using: 'docker'
   image: 'Dockerfile'

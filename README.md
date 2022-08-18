@@ -23,6 +23,14 @@ Name of the image. Should be specified without domain and project.
 
 Image tag to set for the built image.
 
+### `image_name`
+
+Filename to set for the built image.
+
+### `build_args`
+
+Build arguments to set for the built image.
+
 ## Required Environment Variables
 
 ### `GCLOUD_SERVICE_KEY`
