@@ -17,7 +17,10 @@ inputs:
     description: 'Dockerfile name'
     default: 'Dockerfile'
   build_args:
-    description: 'Dockerfile name'
+    description: 'Docker build --build-args parameter'
+    default: ''
+  build_params:
+    description: 'Docker build command parameters'
     default: ''
 runs:
   using: 'docker'
