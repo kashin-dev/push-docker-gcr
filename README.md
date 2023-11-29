@@ -29,7 +29,11 @@ Filename to set for the built image.
 
 ### `build_args`
 
-Build arguments to set for the built image.
+`--build-args` argument for the docker build command
+
+### `build_params`
+
+Build parameters for the docker build command
 
 ## Required Environment Variables
 
